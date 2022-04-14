@@ -29,8 +29,10 @@ const server = http.createServer(app);
 server.listen(port, () => {
   console.log("Started server");
 
+  // Create a public url for our
+  // `localhost:3000` express server.
   ngrok.connect({
-    addr: 3000,
+    addr: 3000, // Our localhost port
   }).then((ngrokUrl) => {
     console.log("Connected to url: " + ngrokUrl);
 
