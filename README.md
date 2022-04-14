@@ -32,4 +32,4 @@ Twilio number:
 
 ![Webhook](docs/webhook.png)
 
-After saving, you're not able to call your Twilio number and hear Breaking Bad Quotes!!
+After saving, you're now able to call your Twilio number and hear Breaking Bad Quotes!!
